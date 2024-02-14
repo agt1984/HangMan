@@ -1,3 +1,4 @@
+//renderizacion de la cabeza
 const HEAD = (
     <div
         style={{
@@ -12,6 +13,7 @@ const HEAD = (
     />
 )
 
+//renderizacion del cuerpo
 const BODY = (
     <div
         style={{
@@ -25,6 +27,7 @@ const BODY = (
     />
 )
 
+//renderizacion del brazo derecho
 const RIGTH_ARM = (
     <div
         style={{
@@ -40,6 +43,7 @@ const RIGTH_ARM = (
     />
 )
 
+//renderizacion del brazo izquierdo
 const LEFT_ARM = (
     <div
         style={{
@@ -55,6 +59,7 @@ const LEFT_ARM = (
     />
 )
 
+//renderizacion de pierna derecha
 const RIGTH_LEG = (
     <div
         style={{
@@ -70,6 +75,7 @@ const RIGTH_LEG = (
     />
 )
 
+//renderizacion de pierna izquierda
 const LEFT_LEG = (
     <div
         style={{
