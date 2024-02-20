@@ -1,7 +1,7 @@
 //renderizacion de las letras de abajo de la horca
 export function HangmanWord() {
     const word = "test"
-    const guessedLetters = ["t"]
+    const guessedLetters = ["t", "e", "g"]
     return (
         <div 
             style={{ 
@@ -14,7 +14,7 @@ export function HangmanWord() {
             }}
         >    
             {word.split("").map((letter, index) => (
-                <span style={{ borderBottom: ".1em solid black"}}>
+                <span style={{ borderBottom: ".1em solid black"}} key={index}>
                     <span style={{
                         visibility: guessedLetters.includes(letter)
                             ? "visible"
